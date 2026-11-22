@@ -1,0 +1,29 @@
+main {
+    #Pelicula, #MerylStreep, #PatriciaField, #EmilyBlunt {
+    background-color: rgb(202, 202, 202);
+    padding: 15px;
+    border-radius: 8px;
+}
+#Pelicula {
+    grid-area: uno;
+}
+#MerylStreep {
+    grid-area: dos;
+}
+#PatriciaField {
+    grid-area: tres;
+}
+#EmilyBlunt {
+    grid-area: cuatro;
+
+}
+.premios {
+    padding: 15px;
+    margin: 2px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "uno dos"
+    "tres cuatro";
+}
+ }

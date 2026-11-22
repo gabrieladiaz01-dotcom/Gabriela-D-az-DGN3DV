@@ -1,0 +1,41 @@
+#Andy, #Miranda, #Emily, #Nigel, #Nate, #Christian {
+    background-color: rgb(202, 202, 202);
+    padding: 15px;
+    border-radius: 8px;
+}
+    #Andy {
+    grid-area: uno;
+}
+#Miranda {
+    grid-area: dos;
+}
+#Emily {
+    grid-area: tres;
+}
+#Nigel {
+    grid-area: cuatro;
+}
+#Nate {
+    grid-area: cinco;
+}
+#Christian {
+    grid-area: seis;
+}
+.contenedores {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-width: 95%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1.25fr;
+    grid-template-areas: "uno dos tres cuatro cinco seis";
+}
+h1{
+    font-weight: bold;
+    font-size: 24px;
+}
+h2{
+    font-weight: medium;
+    font-size: 20px;
+}

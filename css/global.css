@@ -1,0 +1,80 @@
+  @import url("https://use.typekit.net/poo7jvx.css");
+* {
+  box-sizing: border-box;
+}
+  body{
+    background-color: rgb(188, 188, 188);
+  max-width: 1920px;
+  padding-left: 2,5px;
+  padding-right: 2,5px;
+  overflow-x: hidden;
+  }
+  h1 {
+  margin-bottom: 5px;
+}
+h2 {
+  margin-top: 0;
+}
+  nav{
+    background-color: red;
+    color: white;
+    font-family: "alga", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+    padding: 2px;
+    border-radius: 8px;
+}
+header {
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;}
+    nav {
+        display:inline-block;
+        padding: 5px;
+        }
+    .head-principal
+    {
+        padding: 20px;
+    } 
+.vista-inicial {
+    background-image: url(/img/portada.2.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 700px;
+    color: white;
+}
+.btn1 {
+    color: white;
+}
+.footer{
+width: 100%;
+background-color: red;
+font-size: 16px;
+min-height: 50px;
+color: white;
+text-align: center;
+padding: 30px;
+}
+body{
+    font-family: "alga", serif;
+font-weight: 400;
+font-style: normal;
+    }
+
+.atencion-al-cliente {
+    background-image: url(/img/anne-llamadas.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    color: black;
+    padding: 20px;
+}
+fieldset{
+    border: solid 4px white;
+}
+legend span {
+    background-color: white;
+}

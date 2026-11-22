@@ -1,0 +1,29 @@
+.animacion{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    -webkit-animation: tracking-in-expand 0.7s ease-out ;
+	        animation: tracking-in-expand 0.7s ease-out ;
+}
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
